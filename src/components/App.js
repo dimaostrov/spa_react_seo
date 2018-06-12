@@ -63,12 +63,12 @@ class App extends Component {
         </Footer>
         <ScrollToTopOnMount />
         <SectionsContainer className="container" {...options}>
-          <Section className="custom-section" color="#6500FF">
+          <Section className="custom-section" color="#F58F65">
             <TeleHero />
           </Section>
-          <Section color="#FFCE00">About</Section>
-          <Section color="#00F51E">Gallery</Section>
-          <Section color="#E82C0C"><ContactForm /></Section>
+          <Section color="#703BE8">About</Section>
+          <Section color="#FF69C9">Gallery</Section>
+          <Section color="#73C1FF"><ContactForm /></Section>
           <Section color="#02F3F5">
             <Map isMarkerShown 
               googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
