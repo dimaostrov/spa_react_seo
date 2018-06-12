@@ -3,3 +3,15 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.monoton {
+  font-family: 'Monoton', cursive;
+}

@@ -3,6 +3,8 @@ import "./App.css";
 
 import { SectionsContainer, Section, Header, Footer, ScrollToTopOnMount } from "react-fullpage";
 import Map from './Map';
+import ContactForm from './ContactForm';
+import TeleHero from './TeleHero';
 
 let options = {
   sectionClassName: "section",
@@ -13,7 +15,7 @@ let options = {
   arrowNavigation: true,
   scrollingSpeed: 1200,
   dragAndMove: "fingersonly",
-  slidesNavigation: true
+  // slidesNavigation: true
 };
 
 class App extends Component {
@@ -55,30 +57,18 @@ class App extends Component {
         <Footer>
           <footer class="bg-near-black white-80 pv1 pv2-l ph4">
             <p class="f6">
-              <span class="dib mr4 mr5-ns">©2048 Your Company LLC, Inc.</span>
-              <a class="link white-80 hover-light-purple" href="/terms">
-                Terms
-              </a>{" "}
-              /
-              <a class="link white-80 hover-gold" href="/privacy">
-                {" "}
-                Privacy{" "}
-              </a>{" "}
-              /
-              <a class="link white-80 hover-green" href="#">
-                hi@yourcompany.com{" "}
-              </a>
+              <span class="dib mr4 mr5-ns">©2018 TeleSound</span>
             </p>
           </footer>
         </Footer>
         <ScrollToTopOnMount />
         <SectionsContainer className="container" {...options}>
           <Section className="custom-section" color="#6500FF">
-            TELESOUND
+            <TeleHero />
           </Section>
           <Section color="#FFCE00">About</Section>
           <Section color="#00F51E">Gallery</Section>
-          <Section color="#E82C0C">Contact</Section>
+          <Section color="#E82C0C"><ContactForm /></Section>
           <Section color="#02F3F5">
             <Map isMarkerShown 
               googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
