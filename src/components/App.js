@@ -8,7 +8,7 @@ import TeleHero from './TeleHero';
 
 let options = {
   sectionClassName: "section",
-  anchors: ["Home", "About", "Gallery", "Contact", "Map"],
+  anchors: ["Home", "About", "Gallery", "Contact"],
   scrollBar: false,
   navigation: true,
   verticalAlign: true,
