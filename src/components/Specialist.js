@@ -11,9 +11,9 @@ class Specialist extends React.Component {
     const logos = [DENON, HITACHI, MITSU, NESDA, RCA];
     return (
       <div className="center">
-        <div className="f2 lh-title center pt1">CERTIFICATIONS</div>
-        <div className="flex flex-wrap">
-          {logos.map(x => <img className="mw4 ma2 outline w-25 pa4" src={x} />)}
+        <div className="f2 lh-title center pt1 pl2">CERTIFICATIONS</div>
+        <div className="flex flex-wrap mh3">
+          {logos.map(x => <img className="mw7 ma1 outline w-25 pa1" src={x} />)}
         </div>
       </div>
     );
