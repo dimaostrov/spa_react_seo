@@ -1,19 +1,32 @@
 import React, { Component } from "react";
 
 import DENON from "../img/denon.png";
-import HITACHI from "../img/hitachi.png";
-import MITSU from "../img/mitsubishi.png";
 import NESDA from "../img/padded-nesda-logo.png";
-import RCA from "../img/rca.png";
+import KENWOOD from '../img/kenwood.png';
+import LG from '../img/lg.png';
+import PANA from '../img/panasonic.png';
+import PIONEER from '../img/pioneer.png';
+import SAMSUNG from '../img/samsung.png';
+import SONY from '../img/sony.png';
+import TOSHIBA from '../img/toshiba.png';
+import VIZIO from '../img/vizio.png';
+import YAMAHA from '../img/yamaha.png';
 
 class Specialist extends React.Component {
   render() {
-    const logos = [DENON, HITACHI, MITSU, NESDA, RCA];
+    const tvlogos = [LG, PANA, SAMSUNG, SONY, TOSHIBA, VIZIO];
+    const audiologos = [YAMAHA, DENON, KENWOOD, PIONEER];
+    const liCollection = (arr) => {
+      return arr.map((x, i) => <img key={i} className="mw7 mw4-l ma1 pa1 ba b--white-10 br-bottom w-25 h3-l" src={x} />)
+    }
     return (
-      <div className="center">
-        <div className="f2 lh-title center pt1 pl2">CERTIFICATIONS</div>
-        <div className="flex flex-wrap mh3">
-          {logos.map(x => <img className="mw7 ma1 outline w-25 pa1" src={x} />)}
+      <div className="mw8 center">
+        <div className="f1 lh-copy tc shri mb5">We Service</div>
+        <div className="center flex flex-wrap justify-around">
+          {liCollection(tvlogos)}
+        </div>
+        <div className="center flex flex-wrap justify-around mt4">
+          {liCollection(audiologos)}
         </div>
       </div>
     );

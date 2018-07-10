@@ -1,27 +1,26 @@
 import React from "react";
-import Typist from "react-typist";
 
 import TELESOUND from "../img/telesound-black.png";
 
-//import Particles from "react-particles-js";
-import particleConfig from "../utils/particleConfig";
-
-const TeleHero = props => (
-  <div className="mw7 center mt6">
-    <img src={TELESOUND} alt="" />
-    <Typist cursor={{ show: false }}>
-      <header class="tc ph0">
-        <div class="f3 f3-m f3-l fw2 black-80 mt3 lh-copy marker">
-          Est. 1979
+const TeleHero = (props) => (
+  <div className="center mt4 mt5-l mw8">
+    <img className="w-90 pl3" src={TELESOUND} alt="" />
+    <div>
+      <header className="tc ph0 pt4">
+        <div className="f2 f2-m f2-l fw2 black-90 mt1 lh-copy shri">
+          TV - Audio - Video Electronics Services
         </div>
-        <div class="f4 f4-m f4-l fw2 black-80 mt0 lh-copy marker">
-          TV, Audio-Video Electronics Repair
+        <div className="f3 f3-m f2-l fw2 black-90 mt3 mt1-l lh-copy shri">
+          Servicing LA since 1979
+        </div>
+        <div className="f3 f3-m f1-l fw2 black-90 mt3 mt1-l lh-copy shri">
+          (818) 705-0572
         </div>
       </header>
-    </Typist>
-    <h4 className="pl2 ma0 pt6 f3 lh-copy">17711 Vanowen St</h4>
-    <h4 className="pl2 ma0 f3 lh-copy">(Cross Street White Oak)</h4>
+    </div>
+    <h4 className="pl2 ma0 pt5 f3 lh-copy">17711 Vanowen St</h4>
     <h4 className="pl2 ma0 f3 lh-copy">Reseda, CA 91335</h4>
+    <h4 className="pl2 ma0 f5 lh-copy">(Cross Street White Oak)</h4>
   </div>
 );
 
