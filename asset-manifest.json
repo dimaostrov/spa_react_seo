@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.4fe311e5.css",
   "main.css.map": "static/css/main.4fe311e5.css.map",
-  "main.js": "static/js/main.210407b0.js",
-  "main.js.map": "static/js/main.210407b0.js.map",
+  "main.js": "static/js/main.28243859.js",
+  "main.js.map": "static/js/main.28243859.js.map",
   "static/media/kenwood.png": "static/media/kenwood.e4103e6d.png",
   "static/media/lg.png": "static/media/lg.fa93c559.png",
   "static/media/padded-nesda-logo.png": "static/media/padded-nesda-logo.c6dfdf96.png",
@@ -13,5 +13,7 @@
   "static/media/storefront.png": "static/media/storefront.63bed797.png",
   "static/media/telesound-black.png": "static/media/telesound-black.7ba08780.png",
   "static/media/telesound.png": "static/media/telesound.8437130a.png",
-  "static/media/toshiba.png": "static/media/toshiba.bea3b6e2.png"
+  "static/media/toshiba.png": "static/media/toshiba.bea3b6e2.png",
+  "static/media/vizio.png": "static/media/vizio.eee98299.png",
+  "static/media/yamaha.png": "static/media/yamaha.c8a584ac.png"
 }
