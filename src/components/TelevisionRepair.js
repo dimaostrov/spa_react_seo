@@ -17,7 +17,7 @@ const TelevisionRepair = () => (
       Gallery
     </a>
     <a className="link dim white f6 f5-ns dib mr3" href="#Contact" title="Contact">
-      Location
+      Contact
     </a>
   </nav>
 );
