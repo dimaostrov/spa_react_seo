@@ -18,9 +18,9 @@ const TeleHero = (props) => (
         </div>
       </header>
     </div>
-    <h4 className="pl2 ma0 pt3 pt5-l f3 lh-copy">17711 Vanowen St</h4>
+    <h4 className="pl2 ma0 pt3 pt4-l f3 lh-copy">17711 Vanowen St</h4>
     <h4 className="pl2 ma0 f3 lh-copy">Reseda, CA 91335</h4>
-    <h4 className="pl2 ma0 f5 lh-copy">(Cross Street White Oak)</h4>
+    <h4 className="pl2 ma0 f6 lh-copy">(Cross Street White Oak)</h4>
   </div>
 );
 
