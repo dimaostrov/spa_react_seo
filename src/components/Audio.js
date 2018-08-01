@@ -13,9 +13,9 @@ import img8 from '../img/IMG_20180719_184402.jpg';
 
 class Audio extends Component {
   render() {
-    const imgs = [img1, img2, img3, img4, img5, img6, img7, img8];
+    const imgs = [img1, img4,  img5, img8, img2, img6];
     return (
-      <div className="flex flex-wrap justify-between center">
+      <div className="flex flex-wrap justify-around center mw8">
         {imgs.map(x => <ImgContent src={x} key={x} close={this.toggleModal} />)}
       </div>
     );
@@ -37,7 +37,7 @@ toggleModal = () => {
 render() {
     return(
       <div>
-        <img src={this.props.src} alt='' className="mw4 mw5-ns ma1 ma2-ns ba br4 b--silver"/>
+        <img src={this.props.src} alt='' className="mw4 mw5-ns ma2 ma2-ns ba br4 b--silver"/>
         <Modal show={this.state.isOpen}
           onClose={this.state.toggleModal}>
           <img src={this.props.src} className="mw4"/>
