@@ -17,7 +17,7 @@ class Specialist extends React.Component {
     const tvlogos = [LG, PANA, SAMSUNG, SONY, TOSHIBA, VIZIO];
     const audiologos = [YAMAHA, DENON, KENWOOD, PIONEER];
     const liCollection = (arr) => {
-      return arr.map((x, i) => <img key={i} className="mw3 h-50 mw4-l ma1 pa1 ba b--white-50 br-bottom w-25 h3-l" src={x} alt='brand logo' />)
+      return arr.map((x, i) => <img key={i} className="mw3 h-50 mw4-ns ma1 pa1 ba b--white-50 br-bottom w-25 h3-l" src={x} alt='brand logo' />)
     }
     return (
       <div className="mw8 center">

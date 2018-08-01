@@ -59,14 +59,14 @@ export default class EmailForm extends PureComponent {
     } = this.props;
 
     return (
-      <div className={className +" pa4 black-80 bg-blue w-90 center"}>
+      <div className={className +" pa4-ns pa1 black-80 bg-blue w-90 center"}>
         <input
           type="email"
           value={this.state.title}
           onChange={this.handleTitle}
           maxLength={titleMaxLength}
           placeholder={titlePlaceholder}
-          className="input-reset ba b--black-20 pa2 mb2 db w-100"
+          className="input-reset ba b--black-20 pa0 pa2-ns mb2 db w-100"
         />
         <textarea
           value={this.state.contents}
@@ -74,7 +74,7 @@ export default class EmailForm extends PureComponent {
           rows={contentsRows}
           maxLength={contentsMaxLength}
           placeholder={contentsPlaceholder}
-          className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+          className="db border-box hover-black w-100 measure ba b--black-20 pa0 pa2-ns br2 mb2"
         />
         <a href={`mailto:${to}?subject=${this.state.title}&body=${this.state.contents.replace(/\n/g, '%0D%0A')}`}>
           {buttonText}
