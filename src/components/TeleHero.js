@@ -11,7 +11,7 @@ const TeleHero = (props) => (
           TV - Audio - Video Electronics Services
         </div>
         <div className="f3 f3-m f2-l fw2 black-90 mt3 mt1-l lh-copy shri">
-          Servicing LA since 1979
+          since 1979
         </div>
         <div className="f3 f3-m f1-l fw2 black-90 mt3 mt1-l lh-copy shri">
           (818) 705-0572
